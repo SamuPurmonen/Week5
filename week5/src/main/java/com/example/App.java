@@ -69,6 +69,14 @@ public class App
             
             case 2:
             factory.getMachines();
+
+            System.out.println("Tehtaasta Metallitehdas löytyy seuraavat koneet:");
+            for (int k = 0; k < factory.machineList.size(); k++){
+    
+                System.out.println("Koneen tiedot: "+ factory.machineList.get(k).type +", "+  factory.machineList.get(k).model);
+                System.out.println("Työntekijän tiedot: "+ factory.machineList.get(k).operator.getWorkerName() + ", "+ factory.machineList.get(k).operator.getWorkerRole());
+                System.out.println("");
+            }
             break;
             
             case 0:
