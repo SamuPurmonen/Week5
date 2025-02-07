@@ -29,7 +29,7 @@ public void getMachines(){
     for (int i = 0; i < machineList.size(); i++){
     
     System.out.println("Tehtaasta Metallitehdas löytyy seuraavat koneet:");
-    System.out.println("Koneen tiedot: "+ machineList.get(i).model +", "+  machineList.get(i).type   );
+    System.out.println("Koneen tiedot: "+ machineList.get(i).type +", "+  machineList.get(i).model);
     System.out.println("Työntekijän tiedot: "+ machineList.get(i).operator.getWorkerName() + ", "+ machineList.get(i).operator.getWorkerRole());
     System.out.println("");
 }

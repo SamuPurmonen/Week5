@@ -27,7 +27,7 @@ public class App
 
         System.out.println("1) Lisää kone\r\n" + //
         "2) Listaa kaikki koneet\r\n" + //
-        "0) Lopeta peli");
+        "0) Lopeta ohjelma");
 
         
 
