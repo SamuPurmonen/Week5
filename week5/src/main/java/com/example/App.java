@@ -68,8 +68,7 @@ public class App
 
             
             case 2:
-            
-
+            factory.getMachines();
             break;
             
             case 0:
