@@ -8,7 +8,7 @@ public class Factory {
     
 
 String name;
-ArrayList<Machine> machineList = new ArrayList<>();
+ArrayList<Machine> machines = new ArrayList<>();
 
 public Factory(Machine machine, Worker worker){
 
@@ -22,13 +22,13 @@ public Factory(String name){
 
 public void addMachine(Machine machine) {
     
-    machineList.add(machine);
+    machines.add(machine);
 
 }
 
 public ArrayList<Machine> getMachines(){
     
-    return machineList;
+    return machines;
 }
 
 public String getName(){

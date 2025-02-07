@@ -71,10 +71,10 @@ public class App
             factory.getMachines();
 
             System.out.println("Tehtaasta Metallitehdas löytyy seuraavat koneet:");
-            for (int k = 0; k < factory.machineList.size(); k++){
+            for (int k = 0; k < factory.machines.size(); k++){
     
-                System.out.println("Koneen tiedot: "+ factory.machineList.get(k).type +", "+  factory.machineList.get(k).model);
-                System.out.println("Työntekijän tiedot: "+ factory.machineList.get(k).operator.getWorkerName() + ", "+ factory.machineList.get(k).operator.getWorkerRole());
+                System.out.println("Koneen tiedot: "+ factory.machines.get(k).type +", "+  factory.machines.get(k).model);
+                System.out.println("Työntekijän tiedot: "+ factory.machines.get(k).operator.getWorkerName() + ", "+ factory.machines.get(k).operator.getWorkerRole());
                 System.out.println("");
             }
             break;
